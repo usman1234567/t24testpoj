@@ -1,4 +1,4 @@
-﻿<project name="T24 Test Project" basedir="." default="main">
+﻿<project name="T24-Test-Project" basedir="." default="main">
 
     <property name="src.dir"     value="samplecode"/>
     <property name="build.dir"   value="build"/>
