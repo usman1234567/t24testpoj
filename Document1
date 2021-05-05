@@ -1,4 +1,4 @@
-<project default="jar" xmlns:jacoco="antlib:org.jacoco.ant">
+﻿<project default="jar" xmlns:jacoco="antlib:org.jacoco.ant">
   <property name="build.sysclasspath" value="ignore"/>
 
   
