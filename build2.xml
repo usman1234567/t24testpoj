@@ -15,8 +15,9 @@
   
   <target name="compile" unless="skip.compile">
     <mkdir dir="build/classes" />
-    <javac srcdir="samplecode" destdir="build/classes" debug="on"/>
+    <javac srcdir="samplecode" destdir="build/classes" debug="on">
     <classpath refid="class.path" />
+    </javac>
   </target>
   
   <target name="jar" depends="compile" unless="skip.jar">
