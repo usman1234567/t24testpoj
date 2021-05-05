@@ -1,6 +1,7 @@
 ﻿<project name="T24-Test-Project" basedir="." default="main">
 
     <property name="src.dir"     value="samplecode"/>
+    <property name="lib.dir" value="lib" />
     <property name="build.dir"   value="build"/>
     <property name="classes.dir" value="${build.dir}/classes"/>
     <property name="jar.dir"     value="${build.dir}/jar"/>
