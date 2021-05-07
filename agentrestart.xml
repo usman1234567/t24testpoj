@@ -6,7 +6,7 @@
   </target>
   <target name="build">
      <echo message="Restart agent " />
-     <exec executable="${toolkit.home}\AGENT_R20_ModelBank_UXP.bat" spawn="false">
+     <exec executable="${toolkit.home}\AGENT_R20_ModelBank_UXP1.bat" spawn="false">
      </exec>
   </target>
 </project>
