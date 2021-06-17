@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<project name="project" default="run">
+  <target name="run" description="">
+    <property name="toolkit.home" value="D:\Temenos\R20PKMB\jboss\bin" />
+    <antcall target="build" />
+  </target>
+  <target name="build">
+     <echo message="Restart agent " />
+    <exec dir="${toolkit.home}" executable="powershell"  failonerror="true">
+        <arg line="-ExecutionPolicy bypass" />
+        <arg line="AGENT_R20_ModelBank_UXP1.bat" />
+</exec>
+  </target>
+</project>

@@ -1,0 +1,8 @@
+copy /y "C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\t24testenv\build\jar\T24-Test-Project.jar" "D:\Temenos\R20PKMB\jboss\modules\com\temenos\t24\main\jenkinsjar"
+
+copy /y "C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\t24testenv\build\jar\T24-Test-Project.jar" "D:\Temenos\R20PKMB\bnk\t24lib"
+
+
+C:\Users\Administrator\Downloads\nssm-2.24\nssm-2.24\win64\nssm.exe stop jbossservice
+
+C:\Users\Administrator\Downloads\nssm-2.24\nssm-2.24\win64\nssm.exe start jbossservice
